@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <title>Input Group</title>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-6">
+                <!-- Input Group -->
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                    <span class="input-group-text">@gmail.com</span>
+                </div>
+                <!-- Textarea -->
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Notas:</span>
+                    <textarea class="form-control" name="" id="label-notas" aria-label="Notas"></textarea>
+                </div>
+                <!-- Input Group con multiples elementos -->
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Nombre</span>
+                    <input type="text" class="form-control" aria-label="Nombre">
+                    <span class="input-group-text">Apellido</span>
+                    <input type="text" class="form-control" aria-label="Apellido">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text">Pequeño</span>
+                    <input type="text" class="form-control" aria-label="Nombre">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text">Pequeño</span>
+                    <input type="text" class="form-control" aria-label="Nombre">
+                </div>
+                <div class="input-group">
+                    <label for="frutas" class="input-group-text">Frutas</label>
+                    <select name="" id="frutas" class="form-select">
+                        <option value="fresa">Fresa</option>
+                        <option value="mango">Mango</option>
+                        <option value="coco">Coco</option>
+                    </select>
+                    <button class="btn btn-success">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="../../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
