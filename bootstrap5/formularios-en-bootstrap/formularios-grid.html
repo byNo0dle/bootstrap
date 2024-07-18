@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <title>Formularios con Grid</title>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="row">
+                        <div class="col-6 mt-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Nick Saurino" id="nombre">
+                        </div>
+                        <div class="col-6 mt-3">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="email" class="form-control" placeholder="correo@correo.com" id="correo">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                        </div>
+                        <div class="col-6 mt-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    <label class="form-label">Estado Civil</label>
+                                    <input type="radio" name="estado-civil" id="soltero">
+                                    <label for="soltero" class="form-check-label">Soltero</label>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label">País</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script src="../../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
