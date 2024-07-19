@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#mi-modal-1">
+                    Abrir Modal 1
+                </button>
+                <div class="modal fade" id="mi-modal-1" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-1">
+                    <!-- Caja de Dialogo -->
+                    <div class="modal-dialog">
+                        <!-- Contenido de la caja -->
+                        <div class="modal-content">
+                            <!-- Encabezado de la caja -->
+                            <div class="modal-header">
+                                <h5 class="modal-title">Titulo del modal</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar">
+
+                                </button>
+                            </div>
+                            <!-- Cuerpo de la caja -->
+                            <div class="modal-body">
+                                <h1>Hola Mundo</h1>
+                            </div>
+                            <!-- Pie de pagina de la caja -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary">Acepto</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#mi-modal-2">
+                    Abrir Modal 2
+                </button>
+                <div class="modal fade" id="mi-modal-2" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-2"
+                data-bs-backdrop="static">
+                    <!-- Caja de Dialogo -->
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <!-- Contenido de la caja -->
+                        <div class="modal-content">
+                            <!-- Encabezado de la caja -->
+                            <div class="modal-header">
+                                <h5 class="modal-title">Titulo del modal</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar">
+
+                                </button>
+                            </div>
+                            <!-- Cuerpo de la caja -->
+                            <div class="modal-body">
+                                <div>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolores
+                                    exercitationem laboriosam maxime necessitatibus officiis quibusdam rem soluta.
+                                    Consequuntur, eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Accusamus accusantium, ad alias aperiam asperiores aut beatae consequatur corporis
+                                    cupiditate debitis dicta dignissimos dolorem eius eligendi error et, magni minus
+                                    nihil odio odit optio perspiciatis quae quidem tenetur velit vitae voluptates. Lorem
+                                    ipsum dolor sit amet, consectetur adipisicing elit. Cum dignissimos ducimus eligendi
+                                    illum iusto minima, quaerat recusandae sapiente! Accusantium aliquid amet atque
+                                    cumque delectus distinctio dolorem ducimus eius exercitationem fugit ipsum nam neque
+                                    nesciunt non, nulla optio perferendis perspiciatis quidem reprehenderit soluta
+                                    tenetur ullam voluptas. Itaque magni natus numquam quaerat. Lorem ipsum dolor sit
+                                    amet, consectetur adipisicing elit. Atque fugit nam placeat rerum sequi. Animi
+                                    deleniti, excepturi nesciunt non quis reiciendis. Animi assumenda doloremque dolorum
+                                    explicabo impedit ipsam laborum magnam maxime nemo perferendis, quae, quos rem,
+                                    soluta sunt tenetur? Amet asperiores assumenda ducimus ea, eos est facilis hic
+                                    impedit libero nobis quibusdam saepe sequi similique soluta tempora unde,
+                                    voluptates. Aperiam dolor ducimus hic illum laboriosam mollitia odio quaerat ullam
+                                    vel veniam. Accusantium atque cupiditate doloremque doloribus explicabo fugit harum
+                                    nesciunt, optio qui quibusdam! Ad amet asperiores consectetur consequuntur dolor,
+                                    enim molestiae numquam officiis possimus, qui quis similique unde vitae voluptatibus?
+                                </div>
+                            </div>
+                            <!-- Pie de pagina de la caja -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary">Acepto</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
