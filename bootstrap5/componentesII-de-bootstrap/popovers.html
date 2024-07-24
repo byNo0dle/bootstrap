@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <title>Popovers</title>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="row" style="margin-top: 200px;">
+            <div class="col">
+                <button class="btn btn-lg btn-primary" data-bs-toggle="popover" title="Titulo del popover"
+                data-bs-content="Lorem ipsum dolor sit amet." data-bs-placement="top">Popover Arriba</button>
+
+                <button class="btn btn-lg btn-primary" data-bs-toggle="popover" title="Titulo del popover"
+                        data-bs-content="Lorem ipsum dolor sit amet." data-bs-placement="bottom">Popover Abajo</button>
+
+                <button class="btn btn-lg btn-primary" data-bs-toggle="popover" title="Titulo del popover"
+                        data-bs-content="Lorem ipsum dolor sit amet." data-bs-placement="left">Popover Izquierda</button>
+
+                <button class="btn btn-lg btn-primary" data-bs-toggle="popover" title="Titulo del popover"
+                        data-bs-content="Lorem ipsum dolor sit amet." data-bs-placement="right">Popover Derecha</button>
+            </div>
+
+            <div class="col-12 mt-3">
+                <a href="#" role="button" tabindex="0" class="btn btn-lg btn-primary" data-bs-toggle="popover"
+                   title="Titulo del popover" data-bs-content="Lorem ipsum dolor sit amet." data-bs-placement="top"
+                   data-bs-trigger="focus">Popover Arriba</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</body>
+</html>
