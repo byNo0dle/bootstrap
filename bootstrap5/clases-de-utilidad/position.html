@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <title>Clases de Posicionamiento</title>
+    <style>
+        .caja {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 mt-5">
+                <div class="position-relative bg-secondary" style="height: 500px;">
+                    <div class="caja bg-dark position-absolute top-0 start-0"></div>
+                    <div class="caja bg-dark position-absolute top-0 end-0"></div>
+                    <div class="caja bg-dark position-absolute top-50 start-50"></div>
+                    <div class="caja bg-dark position-absolute bottom-50 end-50"></div>
+                    <div class="caja bg-dark position-absolute bottom-0 start-0"></div>
+                    <div class="caja bg-dark position-absolute bottom-0 end-0"></div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="bg-primary text-white p-3 fixed-top">Posicionamiento Fijo Arriba</div>
+                <div class="bg-primary text-white p-3 fixed-bottom">Posicionamiento Fijo Abajo</div>
+
+                <div class="card my-5" style="height: 1000px;">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam assumenda dolore
+                        illo ipsum, iusto omnis optio reiciendis similique voluptatem
+                    </div>
+                </div>
+
+                <div class="bg-primary text-white p-3 sticky-top" style="top: 56px;">Posicionamiento Sticky</div>
+
+                <div class="card my-5" style="height: 1000px;">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, architecto corporis eos impedit
+                        ipsam itaque nemo officia quo voluptates voluptatibus!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
