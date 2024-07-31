@@ -50,6 +50,10 @@ header .menu .c3:hover { background: #002d44; }
 .briefcase .gallery .container-image:hover img {
     opacity: .3;
 }
+/* WINDOW MODAL */
+.modal-dialog {
+    max-width: 1000px;
+}
 /* MEDIAQUERIES */
 /* Dispositivo sm */
 @media screen and (max-width: 576px){
