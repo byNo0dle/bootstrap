@@ -50,3 +50,49 @@ header .menu .c3:hover { background: #002d44; }
 .briefcase .gallery .container-image:hover img {
     opacity: .3;
 }
+/* MEDIAQUERIES */
+/* Dispositivo sm */
+@media screen and (max-width: 576px){
+    .redes-sociales .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .redes-sociales .icon svg {
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+/* Dispositivo md */
+@media screen and (max-width: 768px){}
+
+/* Dispositivo lg */
+@media screen and (max-width: 992px){
+    .logo {
+        height: 76px;
+    }
+
+    header .menu {
+        min-height: 76px;
+    }
+
+    header .menu a {
+        width: 100%;
+    }
+
+    .briefcase .gallery .container-image:nth-child(1) {order: 1;}
+    .briefcase .gallery .container-image:nth-child(2) {order: 3;}
+    .briefcase .gallery .container-image:nth-child(3) {order: 6;}
+    .briefcase .gallery .container-image:nth-child(4) {order: 2;}
+    .briefcase .gallery .container-image:nth-child(5) {order: 5;}
+    .briefcase .gallery .container-image:nth-child(6) {order: 4;}
+    .briefcase .gallery .container-image:nth-child(7) {order: 7;}
+}
+
+/* Dispositivo xl */
+@media screen and (max-width: 1200px){}
+
+/* Dispositivo xxl */
+@media screen and (max-width: 1400px){}
