@@ -28,13 +28,14 @@ header .menu .c3 { background: #003855; }
 header .menu .c1:hover { background: #1ba0ef; }
 header .menu .c2:hover { background: #00426a; }
 header .menu .c3:hover { background: #002d44; }
+
 /* MAIN */
 /* BRIEFCASE */
 .briefcase {
     border-top: 5px solid #3da5e2;
     background: #fff;
 }
-.briefcase .titulo {
+.briefcase .title {
     color: #3da5e2;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
@@ -50,10 +51,46 @@ header .menu .c3:hover { background: #002d44; }
 .briefcase .gallery .container-image:hover img {
     opacity: .3;
 }
+
 /* WINDOW MODAL */
 .modal-dialog {
     max-width: 1000px;
 }
+
+/* ABOUT */
+.about .photo .name {
+    color: #545454;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.about .info .title {
+    color: #005385;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.about .info .summary {
+    letter-spacing: 1px;
+}
+.about .info .label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #005385;
+    margin-bottom: 10px;
+}
+.about .info .progress {
+    background: #005385;
+    border-radius: 0;
+    height: 25px;
+}
+.about .info .progress .progress-bar {
+    background: #3da5e2;
+    line-height: 25px;
+    padding-left: 20px;
+}
+
 /* MEDIAQUERIES */
 /* Dispositivo sm */
 @media screen and (max-width: 576px){
