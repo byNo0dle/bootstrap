@@ -91,6 +91,45 @@ header .menu .c3:hover { background: #002d44; }
     padding-left: 20px;
 }
 
+/* CONTACT */
+.contact {
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
+.contact .title {
+    color: #003855;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.contact .form input[type="text"],
+.contact .form input[type="email"],
+.contact .form textarea {
+    padding: 15px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+}
+.contact .form textarea {
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+}
+.contact .form .button {
+    background: #3da5e2;
+    border: none;
+    padding: 7px 30px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    width: auto;
+    border-radius: 3px;
+}
+.contact .form .button:hover {
+    background: #1ba0ef;
+}
+
 /* MEDIAQUERIES */
 /* Dispositivo sm */
 @media screen and (max-width: 576px){
