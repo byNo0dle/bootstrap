@@ -44,6 +44,61 @@ a {
     margin-right: 10px;
 }
 
+/* --- Main --- */
+.main {
+    padding: 40px;
+}
+.main .column {
+    padding: 0 40px;
+}
+.main .title {
+    color: #262a34;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+.main .widget {
+    margin-bottom: 40px;
+}
+
+/* --- Widget New Entry --- */
+.main .new-entry form input [type="text"],
+.main .new-entry form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .2);
+}
+.main .new-entry form textarea {
+    height: 400px;
+    min-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.main .new-entry button {
+    background: #0275d8;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    transition: .3s ease all;
+}
+.main .new-entry button:hover {
+    background: #025aa5;
+}
+.main .new-entry button svg {
+    margin-right: 10px;
+}
+
 /* --- Mediaqueries ---*/
 /* --- Device xs --- */
 @media screen and (max-width: 320px) {}
