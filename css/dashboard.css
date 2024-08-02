@@ -1,0 +1,78 @@
+.body {
+    background: #f2f2f2;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/* --- Sidebar --- */
+.sidebar {
+    background: #262a34;
+    color: #fff;
+    min-width: 300px;
+    min-height: 100vh;
+}
+.sidebar a {
+    color: #fff;
+}
+
+/* --- Logo --- */
+.sidebar .logo {
+    background: #0275db;
+}
+.sidebar .logo h2 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* --- Menu ---*/
+.sidebar .menu a {
+    display: block;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+.sidebar .menu a:hover {
+    background: #35ae6b;
+}
+.sidebar .menu a svg {
+    margin-right: 10px;
+}
+
+/* --- Mediaqueries ---*/
+/* --- Device xs --- */
+@media screen and (max-width: 320px) {}
+
+/* --- Device sm --- */
+@media screen and (max-width: 576px) {
+    .sidebar {
+        min-height: auto;
+    }
+}
+
+/* --- Device md --- */
+@media screen and (max-width: 768px) {}
+
+/* --- Device lg --- */
+@media screen and (max-width: 992px) {}
+
+/* --- Device xl --- */
+@media screen and (max-width: 1200px) {
+    .sidebar {
+        min-width: auto;
+    }
+    .sidebar .logo {
+        display: none;
+    }
+    .sidebar .menu a svg {
+        display: none;
+    }
+}
+
+/* --- Device xxl --- */
+@media screen and (max-width: 1400px) {}
