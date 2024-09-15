@@ -125,3 +125,24 @@ header .buttons .profile img {
     border-radius: 100px;
     margin-right: 5px;
 }
+
+/* ------------------------------ */
+/* --------- MEDIAQUERIES ------- */
+/* ------------------------------ */
+/* --- DISPOSITIVO LG --- */
+@media screen and (max-width: 992px) {
+    header {
+        padding-top: 10px;
+    }
+
+    .menu {
+        margin-top: 10px;
+    }
+}
+
+/* --- DISPOSITIVO XL --- */
+@media screen and (max-width: 1200px) {
+    header .menu a {
+        padding: 10px 20px;
+    }
+}
