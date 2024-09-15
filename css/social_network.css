@@ -127,8 +127,73 @@ header .buttons .profile img {
 }
 
 /* ------------------------------ */
+/* --------- ASIDE -------------- */
+/* ------------------------------ */
+aside {
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+/* ------------------------------ */
+/* ----- ASIDE QUICK LINKS ------ */
+/* ------------------------------ */
+.quick-links > nav a {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+.quick-links > nav a:hover {
+    background: var(--input-hover);
+}
+
+.quick-links .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.quick-links .icon {
+    margin-right: 20px;
+}
+
+.quick-links .icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* ------------------------------ */
+/* --------- FOOTER ------------- */
+/* ------------------------------ */
+footer {
+    margin: 40px 0;
+}
+
+footer nav a {
+    font-size: 14px;
+    margin-right: 7px;
+    color: var(--light-gray);
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+    color: var(--light-gray);
+}
+
+/* ------------------------------ */
 /* --------- MEDIAQUERIES ------- */
 /* ------------------------------ */
+/* --- DISPOSITIVO MD --- */
+@media screen and (max-width: 768px) {
+    .quick-links {
+        display: none;
+    }
+}
+
 /* --- DISPOSITIVO LG --- */
 @media screen and (max-width: 992px) {
     header {
@@ -137,6 +202,10 @@ header .buttons .profile img {
 
     .menu {
         margin-top: 10px;
+    }
+
+    aside {
+        padding-top: 130px;
     }
 }
 
