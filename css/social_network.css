@@ -230,6 +230,67 @@ footer nav a:hover {
 }
 
 /* ------------------------------ */
+/* --------- MAIN --------------- */
+/* ------------------------------ */
+main {
+    padding-top: 70px;
+}
+
+main .post {
+    background: var(--content-background);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+main .post .form {
+    display: flex;
+    justify-self: start;
+}
+
+main .photo {
+    display: block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+main .photo img {
+    width: 100%;
+}
+
+main .post .form input {
+    width: 100%;
+    border: none;
+    background: var(--input);
+    height: 40px;
+    border-radius: 100px;
+    padding: 0 20px;
+    color: var(--text);
+}
+
+main .post .buttons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+main .post .buttons a:hover {
+    background: var(--input-hover);
+    color: var(--text);
+}
+
+main .post .buttons a svg {
+    margin-right: 7px;
+}
+
+/* ------------------------------ */
 /* --------- MEDIAQUERIES ------- */
 /* ------------------------------ */
 /* --- DISPOSITIVO MD --- */
