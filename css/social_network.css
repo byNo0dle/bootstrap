@@ -131,7 +131,7 @@ header .buttons .profile img {
 /* ------------------------------ */
 aside {
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     padding-top: 60px;
 }
 
@@ -185,11 +185,57 @@ footer nav a:hover {
 }
 
 /* ------------------------------ */
+/* --------- CONTACTS ----------- */
+/* ------------------------------ */
+.contacts .section {
+    margin-bottom: 20px;
+}
+
+.contacts .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--light-gray);
+    margin-bottom: 10px;
+}
+
+.contacts .advertising {
+    display: block;
+    max-height: 100px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contacts .advertising img {
+    width: 100%;
+}
+
+.contacts nav a {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contacts nav a:hover {
+    background: var(--input-hover);
+}
+
+.contacts nav a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+/* ------------------------------ */
 /* --------- MEDIAQUERIES ------- */
 /* ------------------------------ */
 /* --- DISPOSITIVO MD --- */
 @media screen and (max-width: 768px) {
-    .quick-links {
+    .quick-links,
+    .contacts {
         display: none;
     }
 }
