@@ -236,7 +236,8 @@ main {
     padding-top: 70px;
 }
 
-main .post {
+main .post,
+main .publication {
     background: var(--content-background);
     width: 100%;
     border-radius: 5px;
@@ -291,6 +292,83 @@ main .post .buttons a svg {
 }
 
 /* ------------------------------ */
+/* --------- PUBLICATION -------- */
+/* ------------------------------ */
+main .publication .header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+main .publication .header .data {
+    display: flex;
+    flex-direction: column;
+}
+
+main .publication .header .data .name {
+    color: var(--white);
+}
+
+main .publication .header .data .hour {
+    color: var(--text);
+    font-size: 14px;
+}
+
+main .publication .header .data .hour:hover {
+    color: var(--text);
+}
+
+main .publication .header .data a:hover {
+    color: var(--text);
+    text-decoration: underline;
+}
+
+main .publication .body p {
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+main .publication .body img {
+    width: 100%;
+}
+
+main .publication .comments {
+    padding: 10px;
+}
+
+main .publication .comments .i-like svg {
+    margin-right: 10px;
+    color: #e75151;
+}
+
+main .publication .comments a,
+main .publication .comments .i-like {
+    color: var(--text);
+}
+
+main .publication .comments a:hover {
+    text-decoration: underline;
+    color: var(--text);
+}
+
+main .publication .buttons button {
+    width: 100%;
+    border: none;
+    background: none;
+    color: var(--text);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+main .publication .buttons button:hover {
+    background: #3a3b3c;
+}
+
+main .publication .buttons button svg {
+    margin-right: 5px;
+}
+
+/* ------------------------------ */
 /* --------- MEDIAQUERIES ------- */
 /* ------------------------------ */
 /* --- DISPOSITIVO MD --- */
@@ -311,8 +389,8 @@ main .post .buttons a svg {
         margin-top: 10px;
     }
 
-    aside {
-        padding-top: 130px;
+    .main-content {
+        padding-top: 70px;
     }
 }
 
